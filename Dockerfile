@@ -1,10 +1,10 @@
-FROM registry.access.redhat.com/ubi8/openjdk-17:1.13 AS builder
+FROM registry.access.redhat.com/ubi8/openjdk-17:1.23 AS builder
 WORKDIR /work
 COPY . .
 USER 0
 RUN mvn clean package -DskipTests -DskipDocsGen
 
-FROM registry.access.redhat.com/ubi8/openjdk-17-runtime:1.13
+FROM registry.access.redhat.com/ubi8/openjdk-17-runtime:1.23
 USER 185
 WORKDIR /work/
 
