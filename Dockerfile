@@ -4,7 +4,7 @@ COPY . .
 USER 0
 RUN mvn clean package -DskipTests -DskipDocsGen
 
-FROM registry.access.redhat.com/ubi8/openjdk-17-runtime:1.23
+FROM registry.access.redhat.com/ubi8/openjdk-17-runtime:1.23-3.1761163790
 USER 185
 WORKDIR /work/
 
