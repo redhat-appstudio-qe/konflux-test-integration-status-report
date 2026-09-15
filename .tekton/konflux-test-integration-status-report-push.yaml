@@ -136,6 +136,19 @@ spec:
       name: CHAINS-GIT_COMMIT
       value: $(tasks.clone-repository.results.commit)
     tasks:
+    - name: add-finalizer
+      taskSpec:
+        steps:
+        - name: patch
+          image: quay.io/konflux-ci/appstudio-utils:latest
+          script: |
+            #!/usr/bin/env bash
+            set -euo pipefail
+            kubectl patch pipelinerun $(context.pipelineRun.name) \
+              -n $(context.pipelineRun.namespace) \
+              --type=json \
+              -p '[{"op":"add","path":"/metadata/finalizers/-","value":"test.appstudio.openshift.io/sanitize-pipelinerun"}]'
+            echo "Finalizer added to $(context.pipelineRun.name)"
     - name: init
       params:
       - name: enable-cache-proxy
