@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/ubi8/openjdk-17:1.23 AS builder
+FROM registry.access.redhat.com/ubi8/openjdk-17:1.23-5.1789111128 AS builder
 WORKDIR /work
 COPY . .
 USER 0
