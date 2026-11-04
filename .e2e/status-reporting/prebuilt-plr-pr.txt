@@ -1,0 +1,7 @@
+Temporary file for integration-service status-reporting e2e tests.
+
+Namespace: stat-rep-2qhc
+Component: test-component-prebuilt-mx0lpp
+Branch: mock-plr-pr-stat-rep-2qhc-3r4j4t
+CreatedAt: 2026-11-04T17:06:18Z
+Purpose: provide a harmless diff for the prebuilt PipelineRun PR reporting test.
