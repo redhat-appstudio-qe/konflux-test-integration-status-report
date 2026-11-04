@@ -1,0 +1,7 @@
+Temporary file for integration-service status-reporting e2e tests.
+
+Namespace: stat-rep-uxav
+Component: test-component-prebuilt-8zds0a
+Branch: mock-plr-pr-stat-rep-uxav-d7hkdo
+CreatedAt: 2026-11-04T17:18:19Z
+Purpose: provide a harmless diff for the prebuilt PipelineRun PR reporting test.
