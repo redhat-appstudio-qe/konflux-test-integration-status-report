@@ -1,0 +1,7 @@
+Temporary file for integration-service status-reporting e2e tests.
+
+Namespace: stat-rep-anqp
+Component: test-component-prebuilt-09193n
+Branch: mock-plr-pr-stat-rep-anqp-6mjc5q
+CreatedAt: 2026-11-04T19:28:27Z
+Purpose: provide a harmless diff for the prebuilt PipelineRun PR reporting test.
