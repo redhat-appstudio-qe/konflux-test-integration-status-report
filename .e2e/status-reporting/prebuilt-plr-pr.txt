@@ -1,0 +1,7 @@
+Temporary file for integration-service status-reporting e2e tests.
+
+Namespace: stat-rep-w3y0
+Component: test-component-prebuilt-g94vaw
+Branch: mock-plr-pr-stat-rep-w3y0-rctsjc
+CreatedAt: 2026-11-04T17:26:14Z
+Purpose: provide a harmless diff for the prebuilt PipelineRun PR reporting test.
