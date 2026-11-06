@@ -1,0 +1,7 @@
+Temporary file for integration-service status-reporting e2e tests.
+
+Namespace: stat-rep-498c
+Component: test-component-prebuilt-w6gurs
+Branch: mock-plr-pr-stat-rep-498c-hbktak
+CreatedAt: 2026-11-06T18:26:06Z
+Purpose: provide a harmless diff for the prebuilt PipelineRun PR reporting test.
