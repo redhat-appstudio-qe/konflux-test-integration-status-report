@@ -7,6 +7,7 @@ RUN mvn clean package -DskipTests -DskipDocsGen
 FROM registry.access.redhat.com/ubi8/openjdk-17-runtime:1.23
 USER 185
 WORKDIR /work/
+COPY LICENSE /licenses/LICENSE
 
 COPY --from=builder /work/target/hacbs-test.jar /deployments
 
